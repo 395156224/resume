@@ -4,7 +4,7 @@ node_js:
 
 env:
  global:
-   - GH_REF: github.com/395156224/395156224.github.io.git
+   - GH_REF: github.com/395156224/resume/tree/master/docs
 
 cache:
   yarn: true
@@ -30,10 +30,10 @@ script:
 
 after_script:
   # 导航到构建输出目录
-  - cd docs/.vuepress/dist
+  - cd docs
   - git init
   - git add -A
-  - git commit -m 'Update Sunny Home Pages'
+  - git commit -m 'Update Resume Pages'
 
   # 推到你仓库的的 gh-page 分支
   # 将 <USERNAME>/<REPO> 替换为你的信息
