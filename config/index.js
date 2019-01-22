@@ -43,8 +43,8 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../docs'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: 'https://github.com/395156224/resume/tree/master/docs/',
-    // assetsPublicPath: '/resume/tree/master/docs/',
+    // assetsPublicPath: 'https://github.com/395156224/resume/tree/master/docs/',
+    assetsPublicPath: '/',
 
     /**
      * Source Maps
